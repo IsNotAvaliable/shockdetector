@@ -138,7 +138,7 @@ function printAccelerationString(values: number[]) {
 ```
 
 ## Partially Working Solution
-
+```js
 // The original code was written by @emwdx Evan Weinberg
 //
 // Reference file:
@@ -253,3 +253,4 @@ function printAccelerationString(values: number[]) {
     let accelString = ax + "," + ay + "," + az + "," + aMagnitude + "," + isAccelerationMoreThanIsAllowed(aMagnitude)
     serial.writeLine(accelString)
 }
+```
